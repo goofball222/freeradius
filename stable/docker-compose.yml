@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  freeradius:
+    image: goofball222/freeradius
+    container_name: freeradius
+    network_mode: bridge
+    restart: unless-stopped
+    ports:
+      - 1812:1812/udp
+      - 1813:1813/udp
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+#      - ./clients.conf:/etc/raddb/clients.conf
+#      - ./radiusd.conf:/etc/raddb/radiusd.conf
+#      - ./authorize:/etc/raddb/mods-config/files/authorize
+#      - ./certs:/etc/freeradius/certs
+    environment:
+      - TZ=UTC
+#      - RADIUSD_OPTS=-xx # Enable this for FreeRadius extra log verbosity/degub
+
+  freeradius-test:
+    image: goofball222/freeradius
+    container_name: freeradius-test
+    network_mode: bridge
+    depends_on:
+      - freeradius
+    links:
+      - freeradius
+    command: "radtest bob hello freeradius 0 SECRET"
