@@ -3,8 +3,8 @@
 # Init script for Alpine FreeRadius Docker container
 # License: Apache-2.0
 # Github: https://github.com/goofball222/radiusd.git
-SCRIPT_VERSION="0.0.1"
-# Last updated date: 2018-08-19
+SCRIPT_VERSION="1.0.1"
+# Last updated date: 2018-08-24
 
 set -Eeuo pipefail
 
@@ -19,7 +19,7 @@ log() {
 
 log "INFO - Script version ${SCRIPT_VERSION}"
 
-LOGDIR=/var/log/radius
+LOGFILE=/var/log/radius/radius.log
 RADIUSD=/usr/sbin/radiusd
 
 RADIUSD_OPTS="${RADIUSD_OPTS}"
@@ -51,7 +51,7 @@ exit_handler() {
 idle_handler() {
     while true
     do
-        tail -f ${LOGDIR}/radius.log & wait ${!}
+        tail -f ${LOGFILE} & wait ${!}
     done
 }
 

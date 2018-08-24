@@ -30,7 +30,7 @@ RUN \
     && adduser -D -G radius -u $PUID radius \
     && chown -R root:radius /etc/raddb/*.conf /etc/raddb/mods-config/files \
     && apk add --no-cache \
-        bash freeradius freeradius-radclient \
+        bash freeradius freeradius-radclient tzdata \
 #   Alpine FreeRadius unused mods Kitchen Sink list, for future reference 2018-08-19.
 #       freeradius-checkrad freeradius-doc freeradius-eap freeradius-krb5 freeradius-ldap \
 #       freeradius-lib freeradius-mssql freeradius-mysql freeradius-pam freeradius-perl \
