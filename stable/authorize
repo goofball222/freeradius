@@ -1,8 +1,8 @@
 #
-#	Configuration file for the rlm_files module.
-#	Please see rlm_files(5) manpage for more information.
+# 	Configuration file for the rlm_files module.
+# 	Please see rlm_files(5) manpage for more information.
 #
-#	This file contains authentication security and configuration
+# 	This file contains authentication security and configuration
 #	information for each user.  Accounting requests are NOT processed
 #	through this file.  Instead, see 'accounting', in this directory.
 #
@@ -84,8 +84,8 @@
 # The canonical testing user which is in most of the
 # examples.
 #
-bob	Cleartext-Password := "hello"
-	Reply-Message := "Hello, %{User-Name}"
+#bob	Cleartext-Password := "hello"
+#	Reply-Message := "Hello, %{User-Name}"
 #
 
 #
@@ -207,7 +207,7 @@ DEFAULT	Hint == "SLIP"
 # # Last default: shell on the local terminal server.
 # #
 # DEFAULT
-#	Service-Type = Administrative-User
+# 	Service-Type = Administrative-User
 
 
 # On no match, the user is denied access.

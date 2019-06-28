@@ -1,3 +1,7 @@
+* **2019-06-28:**
+    * Update README to reflect current freeradius version
+    * Update authorize, and radiusd.conf to match 3.0.19 default versions
+---
 * **2018-08-24:**
     * Add tzdata package to fix localtime/TZ issue
     * Update docker-entrypoint.sh, change LOGDIR to LOGFILE
