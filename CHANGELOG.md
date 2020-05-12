@@ -1,3 +1,7 @@
+* **2020-05-12:**
+    * Update README to reflect current freeradius version
+    * Update authorize, and radiusd.conf to match 3.0.20 default versions
+---
 * **2019-06-28:**
     * Update README to reflect current freeradius version
     * Update authorize, and radiusd.conf to match 3.0.19 default versions
