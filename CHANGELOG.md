@@ -1,3 +1,8 @@
+* **2021-06-18:**
+    * Switch to GitHub actions for builds
+    * Update freeradius version to 3.0.23
+    * Update documentation
+---
 * **2020-05-12:**
     * Update README to reflect current freeradius version
     * Update authorize, and radiusd.conf to match 3.0.20 default versions

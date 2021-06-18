@@ -1,15 +1,15 @@
 # FreeRadius Docker Container
 
-[![Docker Build Status](https://img.shields.io/docker/cloud/build/goofball222/freeradius.svg)](https://hub.docker.com/r/goofball222/freeradius/) [![Docker Pulls](https://img.shields.io/docker/pulls/goofball222/freeradius.svg)](https://hub.docker.com/r/goofball222/freeradius/) [![Docker Stars](https://img.shields.io/docker/stars/goofball222/freeradius.svg)](https://hub.docker.com/r/goofball222/freeradius/) [![MB Layers](https://images.microbadger.com/badges/image/goofball222/freeradius.svg)](https://microbadger.com/images/goofball222/freeradius) [![MB Commit](https://images.microbadger.com/badges/commit/goofball222/freeradius.svg)](https://microbadger.com/images/goofball222/freeradius) [![MB License](https://images.microbadger.com/badges/license/goofball222/freeradius.svg)](https://microbadger.com/images/goofball222/freeradius)
+[![Latest Build Status](https://github.com/goofball222/freeradius/actions/workflows/build-latest.yml/badge.svg)](https://github.com/goofball222/freeradius/actions/workflows/build-latest.yml) [![Docker Pulls](https://img.shields.io/docker/pulls/goofball222/freeradius.svg)](https://hub.docker.com/r/goofball222/freeradius/) [![Docker Stars](https://img.shields.io/docker/stars/goofball222/freeradius.svg)](https://hub.docker.com/r/goofball222/freeradius/) [![MB License](https://images.microbadger.com/badges/license/goofball222/freeradius.svg)](https://microbadger.com/images/goofball222/freeradius)
 
 ## Docker tags:
 | Tag | freeradius Version | Description | Release Date |
 | --- | :---: | --- | :---: |
-| [latest](https://github.com/goofball222/freeradius/blob/master/stable/Dockerfile) | 3.0.21 | Latest stable release | 2020-11-28 |
+| [latest](https://github.com/goofball222/freeradius/blob/main/stable/Dockerfile) | 3.0.23 | Latest stable release | 2021-06-18 |
 
 ---
 
-* [Recent changes, see: GitHub CHANGELOG.md](https://github.com/goofball222/freeradius/blob/master/CHANGELOG.md)
+* [Recent changes, see: GitHub CHANGELOG.md](https://github.com/goofball222/freeradius/blob/main/CHANGELOG.md)
 * [Report any bugs, issues or feature requests on GitHub](https://github.com/goofball222/freeradius/issues)
 
 ---
