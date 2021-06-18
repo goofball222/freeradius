@@ -2,6 +2,7 @@
     * Switch to GitHub actions for builds
     * Update freeradius version to 3.0.23
     * Update documentation
+    * Update default config files to 3.0.23 version
 ---
 * **2020-05-12:**
     * Update README to reflect current freeradius version
