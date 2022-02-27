@@ -1,3 +1,7 @@
+* **2022-02-27:**
+    * Update freeradius version to 3.0.25
+    * Update default config files to 3.0.25 version
+---
 * **2021-06-18:**
     * Switch to GitHub actions for builds
     * Update freeradius version to 3.0.23
