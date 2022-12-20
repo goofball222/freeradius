@@ -1,3 +1,7 @@
+* **2022-12-20:**
+    * Update freeradius version to 3.0.26
+    * Update default config files to 3.0.26 version
+---
 * **2022-02-27:**
     * Update freeradius version to 3.0.25
     * Update default config files to 3.0.25 version
