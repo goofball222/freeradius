@@ -19,7 +19,7 @@ jobs:
       -
         name: Set up dynamic build ARGs
         id: getargs
-        run: echo "version=(cat ./stable/VERSION)" >> $GITHUB_OUTPUT
+        run: echo "version=$(cat ./stable/VERSION)" >> $GITHUB_OUTPUT
       -
         name: Set up Docker metadata for Alpine
         id: meta-alpine
