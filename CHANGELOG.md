@@ -1,3 +1,6 @@
+* **2023-01-30:**
+    * Update GitHub workflows
+---
 * **2022-12-20:**
     * Update freeradius version to 3.0.26
     * Update default config files to 3.0.26 version
