@@ -1,3 +1,6 @@
+* **2024-10-23:**
+    * Update GitHub build-latest workflow to run automatically at least once a month
+---
 * **2023-01-30:**
     * Update GitHub workflows
 ---
