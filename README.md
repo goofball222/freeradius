@@ -5,7 +5,7 @@
 ## Docker tags:
 | Tag | freeradius Version | Description | Release Date |
 | --- | :---: | --- | :---: |
-| [latest](https://github.com/goofball222/freeradius/blob/main/stable/Dockerfile) | 3.0.26 | Latest stable release | 2022-12-20 |
+| [latest](https://github.com/goofball222/freeradius/blob/main/stable/Dockerfile) | 3.0.27 | Latest stable release | 2025-04-23 |
 
 ---
 
@@ -32,13 +32,11 @@ This container exposes the following two ports:
 
 **Basic docker-compose.yml to launch a FreeRadius instance and make it accessible*
 
-```bash
-
-version: '3'
+```yaml
 
 services:
   freeradius:
-    image: goofball222/freeradius
+    image: ghcr.io/goofball222/freeradius
     container_name: freeradius
     network_mode: bridge
     restart: unless-stopped

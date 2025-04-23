@@ -1,3 +1,7 @@
+* **2025-04-23:**
+    * Update freeradius version to 3.0.27
+    * Update default config files to 3.0.27 version
+---
 * **2024-10-23:**
     * Update GitHub build-latest workflow to run automatically at least once a month
 ---
