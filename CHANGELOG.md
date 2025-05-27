@@ -1,3 +1,6 @@
+* **2025-05-27:**
+    * Properly bump stable\VERSION to 3.0.27
+---
 * **2025-04-23:**
     * Update freeradius version to 3.0.27
     * Update default config files to 3.0.27 version
